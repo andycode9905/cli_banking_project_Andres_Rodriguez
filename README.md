@@ -29,39 +29,54 @@ cli_banking_project_Andres_Rodriguez/
 ├── plotting.py
 ├── storage.py
 ├── requirements.txt
+├── README.md
 └── data/
     ├── users.json
     ├── accounts.json
     └── transactions.csv
+```
+
+---
 
 ## ⚙️ Installation
 
 Make sure you have **Python 3** installed. Then:
 
+```bash
 pip install -r requirements.txt
 python main.py
+```
 
-🎓 Learning Objectives Covered
-✅ Core Python syntax and control flow
+---
 
-✅ Functions and loops
+## 🎓 Learning Objectives Covered
 
-✅ Object-Oriented Programming (OOP)
+- ✅ Core Python syntax and control flow  
+- ✅ Functions and loops  
+- ✅ Object-Oriented Programming (OOP)  
+- ✅ File I/O and data persistence (JSON, CSV)  
+- ✅ Data visualization with `matplotlib` and `pandas`  
+- ✅ Recursion, searching, and sorting logic  
 
-✅ File I/O and data persistence (JSON, CSV)
+---
 
-✅ Data visualization with matplotlib and pandas
+## ❓ FAQ
 
-✅ Recursion, searching, and sorting logic
-
-❓ FAQ
-Q: Do I need a database to run this?
+**Q: Do I need a database to run this?**  
 🅰️ No. All data is stored locally using JSON and CSV files.
 
-Q: Can I run this without matplotlib/pandas?
-🅰️ Yes, but the balance chart will not display. Use pip install -r requirements.txt.
+**Q: Can I run this without matplotlib/pandas?**  
+🅰️ Yes, but the balance chart will not display. Use:
 
-👨‍💻 Author
-Andres Felipe Rodriguez Ortiz
-Python Final Project — Miami Dade College
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 👨‍💻 Author
+
+**Andres Felipe Rodriguez Ortiz**  
+*Python Final Project — Miami Dade College*  
 April 2025
+
